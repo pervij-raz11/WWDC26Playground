@@ -18,6 +18,11 @@ private let features: [FeatureItem] = [
     FeatureItem(id: "I", title: "I · async in defer",           subtitle: "Deferred async cleanup"),
     FeatureItem(id: "J", title: "J · Foundation Models Text",   subtitle: "On-device summarization"),
     FeatureItem(id: "K", title: "K · Foundation Models Vision", subtitle: "Image description"),
+    FeatureItem(id: "L", title: "L · Modern Toolbar",          subtitle: "topBarPinnedTrailing + Liquid Glass alert"),
+    FeatureItem(id: "M", title: "M · Swift 6.4 Safety",        subtitle: "InlineArray + Span + @diagnose"),
+    FeatureItem(id: "N", title: "N · AI Capability Manager",    subtitle: "SystemLanguageModel + PCC"),
+    FeatureItem(id: "O", title: "O · Media Intelligence",       subtitle: "FaceGroupAnalyzer"),
+    FeatureItem(id: "P", title: "P · RealityKit + AppIntents",  subtitle: "GPU compute + Intent testing"),
 ]
 
 struct ContentView: View {
@@ -52,6 +57,11 @@ struct ContentView: View {
         case "I": AsyncDeferView()
         case "J": FoundationModelsTextView()
         case "K": FoundationModelsVisionView()
+        case "L": ModernToolbarView()
+        case "M": SwiftSafetyView()
+        case "N": AICapabilityManagerView()
+        case "O": MediaIntelligenceView()
+        case "P": RealityKitAppIntentsView()
         default:  Text("Unknown screen")
         }
     }

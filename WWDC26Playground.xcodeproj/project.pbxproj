@@ -21,6 +21,11 @@
 		AA000001000000000000EE0B /* I_AsyncDefer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF0B /* I_AsyncDefer.swift */; };
 		AA000001000000000000EE0C /* J_FoundationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF0C /* J_FoundationModels.swift */; };
 		AA000001000000000000EE0D /* K_FoundationModelsVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF0D /* K_FoundationModelsVision.swift */; };
+		AA000001000000000000EE0E /* L_ModernToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF0E /* L_ModernToolbar.swift */; };
+		AA000001000000000000EE0F /* M_SwiftSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF0F /* M_SwiftSafety.swift */; };
+		AA000001000000000000EE10 /* N_AICapabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF10 /* N_AICapabilityManager.swift */; };
+		AA000001000000000000EE11 /* O_MediaIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF11 /* O_MediaIntelligence.swift */; };
+		AA000001000000000000EE12 /* P_RealityKitAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */; };
 		AA000001000000000000EE20 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF20 /* Shared.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,11 @@
 		AA000001000000000000FF0B /* I_AsyncDefer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_AsyncDefer.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF0C /* J_FoundationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_FoundationModels.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF0D /* K_FoundationModelsVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_FoundationModelsVision.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF0E /* L_ModernToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_ModernToolbar.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF0F /* M_SwiftSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_SwiftSafety.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF10 /* N_AICapabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_AICapabilityManager.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF11 /* O_MediaIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_MediaIntelligence.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_RealityKitAppIntents.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF20 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +106,11 @@
 				AA000001000000000000FF0B /* I_AsyncDefer.swift */,
 				AA000001000000000000FF0C /* J_FoundationModels.swift */,
 				AA000001000000000000FF0D /* K_FoundationModelsVision.swift */,
+				AA000001000000000000FF0E /* L_ModernToolbar.swift */,
+				AA000001000000000000FF0F /* M_SwiftSafety.swift */,
+				AA000001000000000000FF10 /* N_AICapabilityManager.swift */,
+				AA000001000000000000FF11 /* O_MediaIntelligence.swift */,
+				AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -183,6 +198,11 @@
 				AA000001000000000000EE0B /* I_AsyncDefer.swift in Sources */,
 				AA000001000000000000EE0C /* J_FoundationModels.swift in Sources */,
 				AA000001000000000000EE0D /* K_FoundationModelsVision.swift in Sources */,
+				AA000001000000000000EE0E /* L_ModernToolbar.swift in Sources */,
+				AA000001000000000000EE0F /* M_SwiftSafety.swift in Sources */,
+				AA000001000000000000EE10 /* N_AICapabilityManager.swift in Sources */,
+				AA000001000000000000EE11 /* O_MediaIntelligence.swift in Sources */,
+				AA000001000000000000EE12 /* P_RealityKitAppIntents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
