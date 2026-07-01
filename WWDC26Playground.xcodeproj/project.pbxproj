@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816FCD7A2FF2765A003D405C /* R_LocalizationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816FCD792FF2765A003D405C /* R_LocalizationDemo.swift */; };
+		816FCD7F2FF2796F003D405C /* WWDC26Playground-InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 816FCD7D2FF2796F003D405C /* WWDC26Playground-InfoPlist.xcstrings */; };
+		816FCD802FF2796F003D405C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 816FCD7C2FF2796F003D405C /* Localizable.xcstrings */; };
 		AA000001000000000000EE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF00 /* Assets.xcassets */; };
 		AA000001000000000000EE01 /* WWDC26PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF01 /* WWDC26PlaygroundApp.swift */; };
 		AA000001000000000000EE02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF02 /* ContentView.swift */; };
@@ -26,10 +29,14 @@
 		AA000001000000000000EE10 /* N_AICapabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF10 /* N_AICapabilityManager.swift */; };
 		AA000001000000000000EE11 /* O_MediaIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF11 /* O_MediaIntelligence.swift */; };
 		AA000001000000000000EE12 /* P_RealityKitAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */; };
+		AA000001000000000000EE13 /* Q_CleanerPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF13 /* Q_CleanerPresentation.swift */; };
 		AA000001000000000000EE20 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000FF20 /* Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		816FCD792FF2765A003D405C /* R_LocalizationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_LocalizationDemo.swift; sourceTree = "<group>"; };
+		816FCD7C2FF2796F003D405C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		816FCD7D2FF2796F003D405C /* WWDC26Playground-InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = "WWDC26Playground-InfoPlist.xcstrings"; sourceTree = "<group>"; };
 		AA000001000000000000AA01 /* WWDC26Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC26Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA000001000000000000FF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA000001000000000000FF01 /* WWDC26PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC26PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 		AA000001000000000000FF10 /* N_AICapabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_AICapabilityManager.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF11 /* O_MediaIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_MediaIntelligence.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_RealityKitAppIntents.swift; sourceTree = "<group>"; };
+		AA000001000000000000FF13 /* Q_CleanerPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_CleanerPresentation.swift; sourceTree = "<group>"; };
 		AA000001000000000000FF20 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816FCD7E2FF2796F003D405C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				816FCD7C2FF2796F003D405C /* Localizable.xcstrings */,
+				816FCD7D2FF2796F003D405C /* WWDC26Playground-InfoPlist.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AA000001000000000000BB00 /* WWDC26Playground */ = {
 			isa = PBXGroup;
 			children = (
+				816FCD7E2FF2796F003D405C /* Resources */,
 				AA000001000000000000FF01 /* WWDC26PlaygroundApp.swift */,
 				AA000001000000000000FF02 /* ContentView.swift */,
 				AA000001000000000000FF20 /* Shared.swift */,
@@ -111,6 +129,8 @@
 				AA000001000000000000FF10 /* N_AICapabilityManager.swift */,
 				AA000001000000000000FF11 /* O_MediaIntelligence.swift */,
 				AA000001000000000000FF12 /* P_RealityKitAppIntents.swift */,
+				AA000001000000000000FF13 /* Q_CleanerPresentation.swift */,
+				816FCD792FF2765A003D405C /* R_LocalizationDemo.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -157,6 +177,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = AA000001000000000000BB02;
 			productRefGroup = AA000001000000000000BB01 /* Products */;
@@ -173,6 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816FCD7F2FF2796F003D405C /* WWDC26Playground-InfoPlist.xcstrings in Resources */,
+				816FCD802FF2796F003D405C /* Localizable.xcstrings in Resources */,
 				AA000001000000000000EE00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +226,8 @@
 				AA000001000000000000EE10 /* N_AICapabilityManager.swift in Sources */,
 				AA000001000000000000EE11 /* O_MediaIntelligence.swift in Sources */,
 				AA000001000000000000EE12 /* P_RealityKitAppIntents.swift in Sources */,
+				AA000001000000000000EE13 /* Q_CleanerPresentation.swift in Sources */,
+				816FCD7A2FF2765A003D405C /* R_LocalizationDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

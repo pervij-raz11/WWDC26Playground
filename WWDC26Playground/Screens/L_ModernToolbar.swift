@@ -1,11 +1,16 @@
 // WHAT TO LOOK FOR:
-// Scroll down — the "bell" button stays pinned (.topBarPinnedTrailing) while the bar minimizes.
+// Scroll down — the "bell" button (.topBarPinnedTrailing) stays visible and never collapses.
 // Tap the bell or "Show Alert" — the system alert renders with Liquid Glass material (iOS 26+ automatic).
-// Both .topBarPinnedTrailing and .toolbarMinimizeBehavior are new iOS 27 APIs.
+// .topBarPinnedTrailing is a new iOS 27 API.
+//
+// NOTE: .topBarPinnedTrailing only keeps an item out of the *overflow menu* (when space is tight /
+// search is active). It does NOT exempt an item from .toolbarMinimizeBehavior — that minimizes the
+// whole navigation bar on scroll, pinned items included. The two are independent, so this screen does
+// not enable scroll-minimization: that would collapse the bell along with everything else.
 
 import SwiftUI
 
-// RESULT: .topBarPinnedTrailing + .toolbarMinimizeBehavior + .alert(isPresented:) — REAL iOS 27 SDK.
+// RESULT: .topBarPinnedTrailing + .alert(isPresented:) — REAL iOS 27 SDK.
 
 struct ModernToolbarView: View {
     @State private var showAlert = false
@@ -16,9 +21,9 @@ struct ModernToolbarView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                RealAPIBanner(text: "✅ Real APIs — .topBarPinnedTrailing (iOS 27, stays visible on scroll) + .toolbarMinimizeBehavior(.onScrollDown) + .alert(isPresented:).\n\"Liquid Glass\" = automatic system material on iOS 26+, no opt-in API.")
+                RealAPIBanner(text: "✅ Real APIs — .topBarPinnedTrailing (iOS 27, stays out of the overflow menu) + .alert(isPresented:).\n\"Liquid Glass\" = automatic system material on iOS 26+, no opt-in API.")
 
-                Text("⬇︎ Scroll down — bar minimizes, but the 🔔 button stays pinned.")
+                Text("⬇︎ Scroll down — the 🔔 button stays anchored in the trailing position.")
                     .font(.caption).padding(10)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color.blue.opacity(0.08))
@@ -37,7 +42,7 @@ struct ModernToolbarView: View {
                     .buttonStyle(.borderedProminent)
 
                     GroupBox("topBarPinnedTrailing") {
-                        Text("The 🔔 toolbar button uses `.topBarPinnedTrailing` — new in iOS 27. Unlike `.topBarTrailing`, this item remains anchored when `.toolbarMinimizeBehavior` collapses the navigation bar. Useful for critical actions that must always be reachable.")
+                        Text("The 🔔 toolbar button uses `.topBarPinnedTrailing` — new in iOS 27. Unlike `.topBarTrailing`, this item never moves into the overflow menu when the bar is constrained (narrow width / active search). Useful for critical actions that must always be reachable. Note: it does not survive `.toolbarMinimizeBehavior`, which collapses the whole bar on scroll.")
                             .font(.caption).foregroundStyle(.secondary)
                     }
 
@@ -63,9 +68,8 @@ struct ModernToolbarView: View {
         }
         .navigationTitle("L · Modern Toolbar")
         .navigationBarTitleDisplayMode(.large)
-        .toolbarMinimizeBehavior(.onScrollDown, for: .navigationBar)
         .toolbar {
-            // .topBarPinnedTrailing — new iOS 27 placement, stays visible during minimize
+            // .topBarPinnedTrailing — new iOS 27 placement, never moves to the overflow menu
             ToolbarItem(placement: .topBarPinnedTrailing) {
                 Button {
                     alertTitle = "Pinned Trailing"

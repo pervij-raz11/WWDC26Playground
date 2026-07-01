@@ -91,7 +91,8 @@ private struct VisionAvailableView: View {
     private let demoImage: UIImage = {
         let cfg = UIImage.SymbolConfiguration(pointSize: 120, weight: .regular)
         return UIImage(systemName: "swift", withConfiguration: cfg)
-            ?? UIImage(systemName: "photo")!
+            ?? UIImage(systemName: "photo")
+            ?? UIImage()
     }()
 
     var body: some View {

@@ -1,0 +1,1035 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "'defer cleanup' must appear LAST in the log." : {
+
+    },
+    "@diagnose(as: ignored)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "@diagnose(as: ignored)"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "⬇︎ Scroll — the bar minimizes. The bar is intentionally crowded so the overflow \"…\" appears on compact screens." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "⬇︎ Прокрутите — панель сворачивается. Панель намеренно перегружена, чтобы на компактных экранах появлялось переполнение «…»."
+          }
+        }
+      }
+    },
+    "⬇︎ Scroll down — the 🔔 button stays anchored in the trailing position." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "⬇︎ Прокрутите вниз — кнопка 🔔 остаётся закреплённой у заднего края."
+          }
+        }
+      }
+    },
+    "⭐︎ The standout tab — Tab(role: .prominent) — is demonstrated on screen **C · Prominent Tab**." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "⭐︎ Выделяющаяся вкладка — Tab(role: .prominent) — продемонстрирована на экране **C · Заметная вкладка**."
+          }
+        }
+      }
+    },
+    "A · Reorder Anywhere" : {
+
+    },
+    "About %@" : {
+
+    },
+    "address.home.button" : {
+      "comment" : "Button that opens the user's saved home address (their house / dwelling)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Home"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Дом"
+          }
+        }
+      }
+    },
+    "address.section.caption" : {
+      "comment" : "Caption above the saved-address navigation buttons",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open one of your saved places in Maps:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Откройте одно из сохранённых мест в Картах:"
+          }
+        }
+      }
+    },
+    "address.work.button" : {
+      "comment" : "Button that opens the user's saved work address in Maps",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Work"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Работа"
+          }
+        }
+      }
+    },
+    "Analyzes photo libraries to group faces into people-entities using CoreData-backed storage. Requires photo assets via insertOrUpdateAssets(_:) — demo initializes with an empty store." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Анализирует медиатеки, чтобы сгруппировать лица в сущности-людей, используя хранилище на основе CoreData. Требует фотоматериалы через insertOrUpdateAssets(_:) — демо запускается с пустым хранилищем."
+          }
+        }
+      }
+    },
+    "Apple Intelligence not available on this device or simulator." : {
+
+    },
+    "Archive" : {
+
+    },
+    "Array.span is a non-owning, non-escaping view. ~Escapable means the Span cannot outlive its source buffer — zero-copy, zero-allocation buffer access." : {
+
+    },
+    "as: error escalates, as: warning downgrades, as: ignored suppresses. Applied at the declaration site." : {
+
+    },
+    "Ask: what is this?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Спросить: что это?"
+          }
+        }
+      }
+    },
+    "Asking model…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Запрос к модели…"
+          }
+        }
+      }
+    },
+    "B · Swipe Outside List" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "B · Свайп вне списка"
+          }
+        }
+      }
+    },
+    "Bookmark" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "В закладки"
+          }
+        }
+      }
+    },
+    "Call greetOnAnyApple()" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Clear & reload" : {
+
+    },
+    "Comment" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Комментарий"
+          }
+        }
+      }
+    },
+    "Compute" : {
+
+    },
+    "Counter" : {
+
+    },
+    "Create" : {
+
+    },
+    "Cross-Fade Detail" : {
+
+    },
+    "Cross-Fade Navigation Transition" : {
+
+    },
+    "D · Smart Toolbars" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "D · Умные панели инструментов"
+          }
+        }
+      }
+    },
+    "Delete" : {
+
+    },
+    "demo.banner" : {
+      "comment" : "Explanatory banner at the top of the localization demo screen",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "✅ Context-aware localization — the word \"Home\" appears twice with two meanings. Distinct keys + comments let it translate to \"Главная\" (screen) vs \"Дом\" (house)."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "✅ Контекстная локализация — слово «Home» встречается дважды в двух значениях. Разные ключи и комментарии позволяют перевести его как «Главная» (экран) и «Дом» (жилище)."
+          }
+        }
+      }
+    },
+    "Document" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Документ"
+          }
+        }
+      }
+    },
+    "Duplicate" : {
+
+    },
+    "E · Document API" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "E · API документов"
+          }
+        }
+      }
+    },
+    "Each tap causes a view body re-evaluation (you can verify by adding a print there), but the @Observable inside @State is never re-initialised." : {
+
+    },
+    "Edit" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Изменить"
+          }
+        }
+      }
+    },
+    "Entity Component System" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Entity Component System"
+          }
+        }
+      }
+    },
+    "Error" : {
+
+    },
+    "Error: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ошибка: %@"
+          }
+        }
+      }
+    },
+    "Explore" : {
+
+    },
+    "F · AsyncImage Cache" : {
+
+    },
+    "FaceGroupAnalyzer" : {
+
+    },
+    "Favorite" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "В избранное"
+          }
+        }
+      }
+    },
+    "Favourite %@" : {
+
+    },
+    "Flag" : {
+
+    },
+    "Force re-render without counter" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Принудительная перерисовка без счётчика"
+          }
+        }
+      }
+    },
+    "Foundation Models unavailable" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Foundation Models недоступны"
+          }
+        }
+      }
+    },
+    "G · @State @Observable" : {
+
+    },
+    "Generates a greeting message." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Создаёт приветственное сообщение."
+          }
+        }
+      }
+    },
+    "Got it" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Понятно"
+          }
+        }
+      }
+    },
+    "GreetingIntent live demo" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Живое демо GreetingIntent"
+          }
+        }
+      }
+    },
+    "H · anyAppleOS + @diagnose" : {
+
+    },
+    "Home" : {
+
+    },
+    "I · async in defer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "I · async в defer"
+          }
+        }
+      }
+    },
+    "Image: SF Symbol 'swift' (stand-in for vision demo)" : {
+
+    },
+    "In iOS 26+, system alerts automatically use Liquid Glass material — translucent blur, specular highlights, adaptive color. No API change needed from .alert(isPresented:); the visual update is applied by the system." : {
+
+    },
+    "Initialize Analyzer" : {
+
+    },
+    "Initializing…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Инициализация…"
+          }
+        }
+      }
+    },
+    "InlineArray result: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Результат InlineArray: %@"
+          }
+        }
+      }
+    },
+    "InlineArray<256, Float>" : {
+
+    },
+    "Input" : {
+
+    },
+    "Item-binding Alert" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Предупреждение с привязкой к элементу"
+          }
+        }
+      }
+    },
+    "Item-binding ConfirmationDialog" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ConfirmationDialog с привязкой к элементу"
+          }
+        }
+      }
+    },
+    "item.description" : {
+      "comment" : "Body paragraph describing the property item to the user",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "A quiet two-bedroom cottage by the river, recently renovated with a sunlit kitchen and a small garden out back."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Тихий коттедж с двумя спальнями у реки, недавно отремонтированный, со светлой кухней и небольшим садом на заднем дворе."
+          }
+        }
+      }
+    },
+    "item.title" : {
+      "comment" : "Title of the property item shown on the home screen",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Riverside Cottage"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Коттедж у реки"
+          }
+        }
+      }
+    },
+    "J · Foundation Models Text" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "J · Текст Foundation Models"
+          }
+        }
+      }
+    },
+    "K · Foundation Models Vision" : {
+
+    },
+    "L · Modern Toolbar" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "L · Современная панель инструментов"
+          }
+        }
+      }
+    },
+    "Liquid Glass Alerts" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Предупреждения Liquid Glass"
+          }
+        }
+      }
+    },
+    "Liquid Glass on alerts and sheets is applied automatically by the system on iOS 26+ — no API change from the previous .alert(isPresented:) approach." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Liquid Glass для предупреждений и листов применяется системой автоматически в iOS 26+ — без изменений API по сравнению с прежним подходом .alert(isPresented:)."
+          }
+        }
+      }
+    },
+    "Live demo" : {
+
+    },
+    "Log (snapshot on main, write off-main)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Журнал (снимок в главном потоке, запись вне его)"
+          }
+        }
+      }
+    },
+    "Log is empty — tap the button." : {
+
+    },
+    "Long-press a card — actions receive the item directly." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Нажмите и удерживайте карточку — действия получают элемент напрямую."
+          }
+        }
+      }
+    },
+    "M · Swift 6.4 Safety" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "M · Безопасность Swift 6.4"
+          }
+        }
+      }
+    },
+    "MediaIntelligenceImageAsset" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "MediaIntelligenceImageAsset"
+          }
+        }
+      }
+    },
+    "Model answer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ответ модели"
+          }
+        }
+      }
+    },
+    "Model init() call count: **%lld**" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Число вызовов init() модели: **%lld**"
+          }
+        }
+      }
+    },
+    "Model lifecycle" : {
+
+    },
+    "Multimodal model unavailable" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Мультимодальная модель недоступна"
+          }
+        }
+      }
+    },
+    "N · AI Capability Manager" : {
+
+    },
+    "Name" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Имя"
+          }
+        }
+      }
+    },
+    "Name:" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Имя:"
+          }
+        }
+      }
+    },
+    "No entries yet" : {
+
+    },
+    "No fake response is shown.\nRun on a real Apple Intelligence device to test." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Поддельный ответ не показывается.\nДля проверки запустите на реальном устройстве с Apple Intelligence."
+          }
+        }
+      }
+    },
+    "O · Media Intelligence" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "O · Интеллектуальный анализ медиа"
+          }
+        }
+      }
+    },
+    "OK" : {
+
+    },
+    "On-Device Model (SystemLanguageModel)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Модель на устройстве (SystemLanguageModel)"
+          }
+        }
+      }
+    },
+    "On-device summary" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Сводка на устройстве"
+          }
+        }
+      }
+    },
+    "Open with .crossFade transition" : {
+
+    },
+    "P · RealityKit + AppIntents" : {
+
+    },
+    "Perform Intent" : {
+
+    },
+    "Private Cloud Compute (PrivateCloudComputeLanguageModel)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Private Cloud Compute (PrivateCloudComputeLanguageModel)"
+          }
+        }
+      }
+    },
+    "Profile" : {
+
+    },
+    "Q · Cleaner Presentation" : {
+
+    },
+    "RealityKit uses an ECS (Entity-Component-System) architecture. Entities are scene nodes; Components add behavior. The public API supports custom Component conformances and System updates." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "RealityKit использует архитектуру ECS (Entity-Component-System). Entity — это узлы сцены; Component добавляют поведение. Публичный API поддерживает пользовательские соответствия Component и обновления System."
+          }
+        }
+      }
+    },
+    "Reload" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Перезагрузить"
+          }
+        }
+      }
+    },
+    "Reload (cached)" : {
+
+    },
+    "Results match: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Результаты совпадают: %@"
+          }
+        }
+      }
+    },
+    "Row %lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Строка %lld"
+          }
+        }
+      }
+    },
+    "Run on-device" : {
+
+    },
+    "Run operation" : {
+
+    },
+    "Running…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Выполнение…"
+          }
+        }
+      }
+    },
+    "Save" : {
+
+    },
+    "Saving…" : {
+
+    },
+    "Send Greeting" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Отправить приветствие"
+          }
+        }
+      }
+    },
+    "Share" : {
+
+    },
+    "Share info" : {
+
+    },
+    "Show Liquid Glass Alert" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Показать предупреждение Liquid Glass"
+          }
+        }
+      }
+    },
+    "Show options" : {
+
+    },
+    "Span result:        %@" : {
+
+    },
+    "Span<Float>  (~Escapable)" : {
+
+    },
+    "Stack-allocated, fixed-size. Type parameter order: <count, Element>." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Размещается в стеке, фиксированный размер. Порядок параметров типа: <count, Element>."
+          }
+        }
+      }
+    },
+    "status.synced" : {
+      "comment" : "Status message confirming the user's edits have been saved and synced",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Your changes were saved and synced to all your devices."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Ваши изменения сохранены и синхронизированы на всех ваших устройствах."
+          }
+        }
+      }
+    },
+    "Summarize (on-device)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Создать сводку (на устройстве)"
+          }
+        }
+      }
+    },
+    "Summarizing…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Создание сводки…"
+          }
+        }
+      }
+    },
+    "Swipe left/right for actions" : {
+
+    },
+    "tab.home" : {
+      "comment" : "Tab bar / navigation label for the home screen (the app's main screen)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Home"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Главная"
+          }
+        }
+      }
+    },
+    "Tap a card — the alert title and message come from the item. No Bool state needed." : {
+
+    },
+    "Tap log" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Журнал нажатий"
+          }
+        }
+      }
+    },
+    "Tap the link — the destination slides in with a cross-fade instead of the default push." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Коснитесь ссылки — пункт назначения появляется через cross-fade вместо стандартного push-перехода."
+          }
+        }
+      }
+    },
+    "The \"Create\" tab has role: .prominent — the system automatically gives it elevated visual weight." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Вкладка «Создать» имеет role: .prominent — система автоматически придаёт ей повышенный визуальный вес."
+          }
+        }
+      }
+    },
+    "The 🔔 toolbar button uses `.topBarPinnedTrailing` — new in iOS 27. Unlike `.topBarTrailing`, this item never moves into the overflow menu when the bar is constrained (narrow width / active search). Useful for critical actions that must always be reachable. Note: it does not survive `.toolbarMinimizeBehavior`, which collapses the whole bar on scroll." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Кнопка панели инструментов 🔔 использует `.topBarPinnedTrailing` — новинка iOS 27. В отличие от `.topBarTrailing`, этот элемент никогда не перемещается в меню переполнения, когда панель ограничена в пространстве (узкая ширина / активный поиск). Полезно для критически важных действий, которые всегда должны быть доступны. Примечание: он не сохраняется при `.toolbarMinimizeBehavior`, который сворачивает всю панель при прокрутке."
+          }
+        }
+      }
+    },
+    "This lets you control the severity of an existing diagnostic group for a specific symbol." : {
+
+    },
+    "This should always be **1**." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Здесь всегда должно быть **1**."
+          }
+        }
+      }
+    },
+    "This view appeared via .navigationTransition(.crossFade) — no slide, just a smooth opacity blend." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Это представление появилось через .navigationTransition(.crossFade) — без сдвига, только плавное изменение прозрачности."
+          }
+        }
+      }
+    },
+    "toolbar.bookmark" : {
+      "comment" : "Toolbar button that saves the current item to the user's bookmarks",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bookmark"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "В закладки"
+          }
+        }
+      }
+    },
+    "toolbar.edit" : {
+      "comment" : "Toolbar button that puts the current item into edit mode",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Изменить"
+          }
+        }
+      }
+    },
+    "toolbar.share" : {
+      "comment" : "Toolbar button that shares the current item with others",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Share"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Поделиться"
+          }
+        }
+      }
+    },
+    "topBarPinnedTrailing" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "topBarPinnedTrailing"
+          }
+        }
+      }
+    },
+    "Window size: %lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Размер окна: %lld"
+          }
+        }
+      }
+    },
+    "WWDC 2026 Playground" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "WWDC 2026 Playground"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

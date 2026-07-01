@@ -48,20 +48,16 @@ struct AsyncImageCacheView: View {
                         AsyncImage(url: url) { phase in
                             switch phase {
                             case .empty:
-                                RoundedRectangle(cornerRadius: 12)
-                                    .fill(Color.secondary.opacity(0.15))
-                                    .frame(height: 150)
-                                    .overlay(ProgressView())
+                                // TODO: Provide a loading placeholder here (no image yet — still fetching).
+                                EmptyView()
                             case .success(let img):
                                 img.resizable()
                                     .scaledToFill()
                                     .frame(height: 150)
                                     .clipShape(RoundedRectangle(cornerRadius: 12))
                             case .failure:
-                                RoundedRectangle(cornerRadius: 12)
-                                    .fill(Color.red.opacity(0.1))
-                                    .frame(height: 150)
-                                    .overlay(Image(systemName: "xmark.circle").foregroundStyle(.red))
+                                // TODO: Provide an error placeholder here (no image — the request failed).
+                                EmptyView()
                             @unknown default:
                                 EmptyView()
                             }

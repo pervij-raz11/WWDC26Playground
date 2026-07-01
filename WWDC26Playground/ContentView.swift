@@ -1,36 +1,100 @@
 import SwiftUI
 
-struct FeatureItem: Identifiable {
-    let id: String
-    let title: String
-    let subtitle: String
-}
+/// Every feature screen in the playground, in display order.
+///
+/// Modeling features as an enum (rather than a string-keyed list) makes the
+/// routing `switch` in `destination` exhaustive: the compiler guarantees a
+/// destination exists for every case. There are no string keys to mistype and
+/// no "Unknown screen" fallback to hide a missing route. The raw value is the
+/// screen's canonical letter, matching the `A_`, `B_`, … source file names.
+enum Feature: String, CaseIterable, Identifiable {
+    case a = "A", b = "B", c = "C", d = "D", e = "E", f = "F", g = "G"
+    case h = "H", i = "I", j = "J", k = "K", l = "L", m = "M", n = "N"
+    case o = "O", p = "P", q = "Q", r = "R"
 
-private let features: [FeatureItem] = [
-    FeatureItem(id: "A", title: "A · Reorder Anywhere",         subtitle: "LazyVGrid drag-to-reorder"),
-    FeatureItem(id: "B", title: "B · Swipe Outside List",       subtitle: "LazyVStack swipeActions"),
-    FeatureItem(id: "C", title: "C · Prominent Tab",            subtitle: "Tab(role: .prominent)"),
-    FeatureItem(id: "D", title: "D · Smart Toolbars",           subtitle: "visibilityPriority, overflow, minimize"),
-    FeatureItem(id: "E", title: "E · Document API",             subtitle: "Off-main-thread writes"),
-    FeatureItem(id: "F", title: "F · AsyncImage HTTP Cache",    subtitle: "URLCache + AsyncImage"),
-    FeatureItem(id: "G", title: "G · @State @Observable",       subtitle: "Single init across re-renders"),
-    FeatureItem(id: "H", title: "H · anyAppleOS + @diagnose",   subtitle: "Compile-time availability"),
-    FeatureItem(id: "I", title: "I · async in defer",           subtitle: "Deferred async cleanup"),
-    FeatureItem(id: "J", title: "J · Foundation Models Text",   subtitle: "On-device summarization"),
-    FeatureItem(id: "K", title: "K · Foundation Models Vision", subtitle: "Image description"),
-    FeatureItem(id: "L", title: "L · Modern Toolbar",          subtitle: "topBarPinnedTrailing + Liquid Glass alert"),
-    FeatureItem(id: "M", title: "M · Swift 6.4 Safety",        subtitle: "InlineArray + Span + @diagnose"),
-    FeatureItem(id: "N", title: "N · AI Capability Manager",    subtitle: "SystemLanguageModel + PCC"),
-    FeatureItem(id: "O", title: "O · Media Intelligence",       subtitle: "FaceGroupAnalyzer"),
-    FeatureItem(id: "P", title: "P · RealityKit + AppIntents",  subtitle: "GPU compute + Intent testing"),
-]
+    var id: String { rawValue }
+
+    /// The screen's name, without the leading letter.
+    var name: String {
+        switch self {
+        case .a: "Reorder Anywhere"
+        case .b: "Swipe Outside List"
+        case .c: "Prominent Tab"
+        case .d: "Smart Toolbars"
+        case .e: "Document API"
+        case .f: "AsyncImage HTTP Cache"
+        case .g: "@State @Observable"
+        case .h: "anyAppleOS + @diagnose"
+        case .i: "async in defer"
+        case .j: "Foundation Models Text"
+        case .k: "Foundation Models Vision"
+        case .l: "Modern Toolbar"
+        case .m: "Swift 6.4 Safety"
+        case .n: "AI Capability Manager"
+        case .o: "Media Intelligence"
+        case .p: "RealityKit + AppIntents"
+        case .q: "Cleaner Presentation"
+        case .r: "Context-Aware Localization"
+        }
+    }
+
+    var subtitle: String {
+        switch self {
+        case .a: "LazyVGrid drag-to-reorder"
+        case .b: "LazyVStack swipeActions"
+        case .c: "Tab(role: .prominent)"
+        case .d: "priority + overflow + pinned + minimize"
+        case .e: "Off-main-thread writes"
+        case .f: "URLCache + AsyncImage"
+        case .g: "Single init across re-renders"
+        case .h: "Compile-time availability"
+        case .i: "Deferred async cleanup"
+        case .j: "On-device summarization"
+        case .k: "Image description"
+        case .l: "topBarPinnedTrailing + Liquid Glass alert"
+        case .m: "InlineArray + Span + @diagnose"
+        case .n: "SystemLanguageModel + PCC"
+        case .o: "FaceGroupAnalyzer"
+        case .p: "GPU compute + Intent testing"
+        case .q: "item-binding alert/dialog + crossFade"
+        case .r: "String(localized:comment:) + String Catalog"
+        }
+    }
+
+    /// The full title as shown in the list, e.g. "A · Reorder Anywhere".
+    var title: String { "\(rawValue) · \(name)" }
+
+    @MainActor @ViewBuilder
+    var destination: some View {
+        switch self {
+        case .a: ReorderAnywhereView()
+        case .b: SwipeOutsideListView()
+        case .c: ProminentTabView()
+        case .d: SmartToolbarsView()
+        case .e: DocumentAPIView()
+        case .f: AsyncImageCacheView()
+        case .g: StateObservableView()
+        case .h: AnyAppleOSView()
+        case .i: AsyncDeferView()
+        case .j: FoundationModelsTextView()
+        case .k: FoundationModelsVisionView()
+        case .l: ModernToolbarView()
+        case .m: SwiftSafetyView()
+        case .n: AICapabilityManagerView()
+        case .o: MediaIntelligenceView()
+        case .p: RealityKitAppIntentsView()
+        case .q: CleanerPresentationView()
+        case .r: LocalizationDemoView()
+        }
+    }
+}
 
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            List(features) { feature in
+            List(Feature.allCases) { feature in
                 NavigationLink {
-                    destination(for: feature.id)
+                    feature.destination
                 } label: {
                     VStack(alignment: .leading, spacing: 2) {
                         Text(feature.title).font(.headline)
@@ -40,29 +104,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("WWDC 2026 Playground")
-        }
-    }
-
-    @ViewBuilder
-    private func destination(for id: String) -> some View {
-        switch id {
-        case "A": ReorderAnywhereView()
-        case "B": SwipeOutsideListView()
-        case "C": ProminentTabView()
-        case "D": SmartToolbarsView()
-        case "E": DocumentAPIView()
-        case "F": AsyncImageCacheView()
-        case "G": StateObservableView()
-        case "H": AnyAppleOSView()
-        case "I": AsyncDeferView()
-        case "J": FoundationModelsTextView()
-        case "K": FoundationModelsVisionView()
-        case "L": ModernToolbarView()
-        case "M": SwiftSafetyView()
-        case "N": AICapabilityManagerView()
-        case "O": MediaIntelligenceView()
-        case "P": RealityKitAppIntentsView()
-        default:  Text("Unknown screen")
         }
     }
 }
